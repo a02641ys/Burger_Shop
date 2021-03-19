@@ -1,0 +1,111 @@
+@media screen and (max-width: 480px) {
+  .section_title {
+    font-size: 35px;
+  }
+  .section_title img {
+    padding-bottom: 10px;
+  }
+  br-sp {
+    display: block;
+  }
+.header_list{
+  display: none;
+}
+.header {
+  text-align: center;
+}
+.top_wrapper_img img{
+  max-width: 300px;
+  text-align: center;
+}
+.top_wrapper {
+  padding-top: 150px;
+}
+.header h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.header img {
+  width: 10%;
+}
+.commn_inner {
+  padding: 20px;
+}
+/* ---------photo garally--------- */
+
+.instagram_inner {
+  display: inline-block;
+  padding:0;
+}
+.instagram_page {
+  font-size: 20px;
+}
+.instagram .section_title span {
+font-size: 20px;
+}
+.feature-block {
+  display: inline-block;
+  object-fit: contain;
+  background-color: #fffff5;
+}
+.feature-list {
+  color: #333333;
+  margin: 0 auto;
+  /* padding: 10px; */
+  width: 100%;
+  box-sizing: border-box;
+  border: 10px solid red;
+}
+.feature-block__image {
+max-width: 100%;
+height: auto;
+}
+.feature-block__image img {
+  width:100%;
+  /* max-width: fit-content; */
+}
+
+.feature-block__wrapper {
+  width: 90%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  width:300px;
+}
+.feature-block__text {
+  word-wrap: break-word;
+}
+/* ---------access------------ */
+.access_inner {
+  display: block;
+}
+.access_inner .more {
+  margin-bottom:  15px;
+}
+iframe{
+  width: 100%;
+}
+.img_footer {
+  height: 150px;
+}
+}
+/* -------タブレットー------ */
+@media screen and  (min-width:481px) and ( max-width:1200px) {
+  .instagram_inner {
+    display: inline-block;
+  }
+  .feature-block {
+    display: inline-block;
+  }
+  .feature__image img {
+    width:100%;
+  } 
+  .feature-block__wrapper {
+    width: 90%;
+  
+  }
+.header {
+  font-size: 20px;
+}
+
+
+}
